@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="1210.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Rapport_validation_controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="622.0" prefWidth="1208.0">
+         <children>
+            <Button fx:id="fermer_button" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Fermer" AnchorPane.leftAnchor="1046.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="500.0" />
+            <TextArea fx:id="rapport_textArea" editable="false" layoutX="-6.0" layoutY="4.0" prefHeight="615.0" prefWidth="935.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
